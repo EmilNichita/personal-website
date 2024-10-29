@@ -1,8 +1,19 @@
 import React, { useEffect, useRef } from "react";
 
-const BinaryTrailCursor = () => {
+function choose(choices) {
+  var index = Math.floor(Math.random() * choices.length);
+  return choices[index];
+}
+
+const BinaryTrailCursor = ({
+  maxDistance,
+  particleSize,
+  particleSpeedModifier,
+  particleSpeedOffset,
+  particleCreationTime,
+}) => {
   const canvasRef = useRef(null);
-  const maxDistance = 80;
+
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
@@ -12,14 +23,18 @@ const BinaryTrailCursor = () => {
 
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    ctx.scale(devicePixelRatio, devicePixelRatio);
+    // ctx.scale(devicePixelRatio, devicePixelRatio);
 
-    var hue = 0;
+    let hue = 0;
+    let particleCreationDelay = 0;
+
     const createParticle = (x, y) => {
-      const size = 2;
-      const color = `hsl(${hue},100%,50%)`;
-      const speedX = Math.random() * 2 - 1;
-      const speedY = Math.random() * 2 - 1;
+      const size = particleSize;
+      const color = `hsl(${hue},40%,80%)`;
+      const speedX =
+        Math.random() * particleSpeedModifier - particleSpeedOffset;
+      const speedY =
+        Math.random() * particleSpeedModifier - particleSpeedOffset;
 
       return { x, y, size, color, speedX, speedY };
     };
@@ -48,12 +63,12 @@ const BinaryTrailCursor = () => {
       requestAnimationFrame(animate);
 
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      hue++;
+      hue = (hue + 1) % 256;
       connectParticles();
       particles.forEach((particle, index) => {
         particle.x += particle.speedX;
         particle.y += particle.speedY;
-        particle.size -= 0.05;
+        particle.size -= particleSize / 200;
         if (particle.size <= 0.3) {
           particles.splice(index, 1);
         }
@@ -68,19 +83,23 @@ const BinaryTrailCursor = () => {
     animate();
     const handleMouseMove = (event) => {
       const rect = canvas.getBoundingClientRect();
-      const x = event.clientX - rect.left;
+      // const x = event.clientX - rect.left;
 
-      const y = event.clientY - rect.top;
+      particleCreationDelay += 1;
+      if (particleCreationDelay > particleCreationTime) {
+        const x = event.clientX;
+        const y = event.clientY;
 
-      for (let i = 0; i < 1; i++) {
         particles.push(createParticle(x, y));
+
+        particleCreationDelay = 0;
       }
     };
 
-    canvas.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
-      canvas.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);
 

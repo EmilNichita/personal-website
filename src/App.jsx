@@ -7,7 +7,13 @@ import BinaryTrailCursor from "./common/BinaryTrailCursor";
 function App() {
   return (
     <>
-      <BinaryTrailCursor />
+      <BinaryTrailCursor
+        maxDistance="40"
+        particleSize="4"
+        particleSpeedModifier="0.5"
+        particleSpeedOffset="0.1"
+        particleCreationTime="4"
+      />
       <Hero />
       <Projects />
       <Skills />
