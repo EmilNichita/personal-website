@@ -220,3 +220,31 @@
     font-size: 12px;
   }
 }
+
+
+.theme-button {
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  margin-right: 5px;
+  margin-left: 15px;
+  padding-top: 5px;
+  border-radius: 50%;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.theme-button.theme-light {
+  background-color: #7cd1f7;
+}
+
+.theme-button.theme-dark {
+  background-color: #292c3f;
+}
+
+.theme-button:hover {
+  box-shadow: 0 3px 8px var(--hover-shadow-color);
+}

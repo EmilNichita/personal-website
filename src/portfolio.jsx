@@ -3,15 +3,13 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
 const greeting = {
   title: "Hello 👋.",
   title2: "Harikrushn",
-  logo_name: "harry.k()",
+  logo_name: "emil_nichita()",
   nickname: "harry / picleric",
   full_name: "Harikrushn Kanani",
   subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
@@ -616,8 +614,7 @@ const projects = {
         },
         {
           name: "Live Demo",
-          url:
-            "https://akshitagupta15june.github.io/Keep-Calm-and-Carry-On.github.io/",
+          url: "https://akshitagupta15june.github.io/Keep-Calm-and-Carry-On.github.io/",
           iconifyClass: "mdi:web",
         },
       ],
