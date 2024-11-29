@@ -19,7 +19,7 @@ const BinaryTrailCursor = ({
     const ctx = canvas.getContext("2d");
 
     let particles = [];
-    const devicePixelRatio = window.devicePixelRatio || 1;
+    // const devicePixelRatio = window.devicePixelRatio || 1;
 
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -83,14 +83,17 @@ const BinaryTrailCursor = ({
     animate();
     const handleMouseMove = (event) => {
       const rect = canvas.getBoundingClientRect();
-      // const x = event.clientX - rect.left;
 
       particleCreationDelay += 1;
       if (particleCreationDelay > particleCreationTime) {
-        const x = event.clientX;
-        const y = event.clientY;
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
 
         particles.push(createParticle(x, y));
+
+        console.log("x, y", x, y);
+        console.log("clinet", event.clientX, event.clientY);
+        console.log("page", event.pageX, event.pageY);
 
         particleCreationDelay = 0;
       }
@@ -101,7 +104,7 @@ const BinaryTrailCursor = ({
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
     };
-  }, []);
+  }, [devicePixelRatio]);
 
   return <canvas ref={canvasRef} className="canvas" />;
 };
