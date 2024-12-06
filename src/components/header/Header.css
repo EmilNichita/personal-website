@@ -35,7 +35,7 @@
 }
 
 .header .logo-name {
-  font-family: "Google Sans Regular";
+  font-family: "Open Sans";
   font-weight: bold;
   padding: 0 10px;
   letter-spacing: 3px;
@@ -45,7 +45,7 @@
 /* menu */
 
 .menu {
-  font-family: "Google Sans Regular";
+  font-family: "Open Sans";
 }
 
 .header .menu {
@@ -246,5 +246,5 @@
 }
 
 .theme-button:hover {
-  box-shadow: 0 3px 8px var(--hover-shadow-color);
+  box-shadow: 0 3px 8px var(--shadow-color);
 }

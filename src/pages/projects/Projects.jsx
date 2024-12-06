@@ -6,17 +6,9 @@ import { Fade } from "react-awesome-reveal";
 import { projectsHeader, projects } from "../../portfolio.jsx";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg.jsx";
-// import { style } from "glamor";
 
 function Projects(props) {
   const theme = props.theme;
-
-  // const styles = style({
-  //   backgroundColor: `${theme.accentBright}`,
-  //   ":hover": {
-  //     boxShadow: `0 5px 15px ${theme.accentBright}`,
-  //   },
-  // });
 
   return (
     <div className="projects-main">
@@ -38,7 +30,7 @@ function Projects(props) {
                 className="projects-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {projectsHeader["description"]}
+                {projectsHeader.description}
               </p>
             </div>
           </div>
@@ -52,13 +44,14 @@ function Projects(props) {
       <br />
       <br />
       <br />
-      {/* <a
-        {...styles}
-        className="general-btn"
+      <a
+        className={`general-btn ${
+          theme.name === "light" ? "btn-light" : "btn-dark"
+        }`}
         href="https://github.com/harikanani"
       >
         More Projects (Github)
-      </a> */}
+      </a>
       <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />

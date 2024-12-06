@@ -42,7 +42,7 @@
   line-height: 1.1;
   text-overflow: ellipsis;
   color: rgb(36, 41, 46);
-  font-family: "Google Sans Regular";
+  font-family: "Open Sans";
   margin-bottom: 0.75rem;
   font-size: 25px;
   font-weight: 700;
@@ -59,7 +59,7 @@
   word-wrap: break-word;
   text-align: left;
   display: -webkit-box;
-  font-family: "Google Sans Regular";
+  font-family: "Open Sans";
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
@@ -84,7 +84,7 @@
 
 .repo-creation-date {
   margin: 0;
-  font-family: "Google Sans Regular";
+  font-family: "Open Sans";
   font-weight: 400;
   margin-left: 0px;
   margin-right: auto;
@@ -106,4 +106,20 @@
   .repo-creation-date {
     font-size: 14px;
   }
+}
+
+
+.project-card {
+  color: rgb(88, 96, 105);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  padding: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  box-shadow: var(--image-dark) 0 2px 15px;
 }

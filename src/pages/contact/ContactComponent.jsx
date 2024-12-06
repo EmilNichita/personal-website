@@ -6,20 +6,12 @@ import BlogsImg from "./BlogsImg";
 import { Fade } from "react-awesome-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.jsx";
-// import { style } from "glamor";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 
 function Contact(props) {
   const theme = props.theme;
-
-  // const styles = style({
-  //   backgroundColor: `${theme.accentBright}`,
-  //   ":hover": {
-  //     boxShadow: `0 5px 15px ${theme.accentBright}`,
-  //   },
-  // });
 
   return (
     <div className="contact-main">
@@ -50,9 +42,15 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              {/* <a {...styles} className="general-btn" href={greeting.resumeLink}>
+              <a
+                className="general-btn resume-btn"
+                style={{
+                  backgroundColor: theme.accentBright,
+                }}
+                href={greeting.resumeLink}
+              >
                 See my Resume
-              </a> */}
+              </a>
             </div>
           </div>
         </Fade>
@@ -69,9 +67,15 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                {/* <a {...styles} className="general-btn" href={blogSection.link}>
+                <a
+                  className="general-btn twitter-btn"
+                  style={{
+                    backgroundColor: theme.accentBright,
+                  }}
+                  href={blogSection.link}
+                >
                   My Twitter Profile
-                </a> */}
+                </a>
               </div>
             </div>
             <div className="blog-heading-img-div">

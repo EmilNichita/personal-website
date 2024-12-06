@@ -20,10 +20,9 @@ function SkillSection(props) {
   return (
     <div>
       {skills.data.map((skill, index) => {
-        // Ensure each main skill block has a unique key
         if (index % 2 === 0) {
           return (
-            <div className="skills-main-div" key={`skill-block-${index}`}>
+            <div className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
@@ -41,15 +40,16 @@ function SkillSection(props) {
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence, sentenceIndex) => (
-                      <p
-                        key={`skill-sentence-${index}-${sentenceIndex}`} // Unique key for each sentence
-                        className="subTitle skills-text"
-                        style={{ color: theme.secondaryText }}
-                      >
-                        {skillSentence}
-                      </p>
-                    ))}
+                    {skill.skills.map((skillSentence) => {
+                      return (
+                        <p
+                          className="subTitle skills-text"
+                          style={{ color: theme.secondaryText }}
+                        >
+                          {skillSentence}
+                        </p>
+                      );
+                    })}
                   </div>
                 </Fade>
               </div>
@@ -57,7 +57,7 @@ function SkillSection(props) {
           );
         } else {
           return (
-            <div className="skills-main-div" key={`skill-block-${index}`}>
+            <div className="skills-main-div">
               <div className="skills-text-div">
                 <Fade left duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
@@ -69,15 +69,16 @@ function SkillSection(props) {
                 </Fade>
                 <Fade left duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence, sentenceIndex) => (
-                      <p
-                        key={`skill-sentence-${index}-${sentenceIndex}`} // Unique key for each sentence
-                        className="subTitle skills-text"
-                        style={{ color: theme.secondaryText }}
-                      >
-                        {skillSentence}
-                      </p>
-                    ))}
+                    {skill.skills.map((skillSentence) => {
+                      return (
+                        <p
+                          className="subTitle skills-text"
+                          style={{ color: theme.secondaryText }}
+                        >
+                          {skillSentence}
+                        </p>
+                      );
+                    })}
                   </div>
                 </Fade>
               </div>

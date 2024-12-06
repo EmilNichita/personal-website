@@ -40,8 +40,10 @@ function Header(props) {
       />
     );
 
+  const shadow_color = theme.name === "light" ? "#F7D774" : "#646464";
+
   return (
-    <Fade top duration={1000} distance="20px">
+    <Fade top duration={1000} distance="10px" direction="up">
       <div>
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
@@ -115,6 +117,7 @@ function Header(props) {
               className={`theme-button ${
                 theme.name === "light" ? "theme-light" : "theme-dark"
               }`}
+              style={{ "--shadow-color": shadow_color }}
               onClick={changeTheme}
             >
               {icon}

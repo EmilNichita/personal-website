@@ -26,13 +26,13 @@
 }
 
 .cert-body-title {
-  font-family: "Google Sans Regular";
+  font-family: "Open Sans";
   font-size: 20px;
   margin: 10px;
 }
 
 .cert-body-subtitle {
-  font-family: "Google Sans Regular";
+  font-family: "Open Sans";
   font-size: 18px;
   color: #808080;
   margin: 10px;
@@ -86,7 +86,7 @@
 .content-details h3 {
   color: #fff;
   font-weight: 500;
-  font-family: "Google Sans Regular";
+  font-family: "Open Sans";
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
@@ -100,4 +100,17 @@
   .cert-card {
     width: 100%;
   }
+}
+
+.cert-card {
+  position: relative;
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.cert-card:hover {
+  box-shadow: 0 5px 15px var(--dynamic-color);
 }

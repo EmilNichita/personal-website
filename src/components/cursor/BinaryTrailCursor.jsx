@@ -90,11 +90,6 @@ const BinaryTrailCursor = ({
         const y = event.clientY - rect.top;
 
         particles.push(createParticle(x, y));
-
-        console.log("x, y", x, y);
-        console.log("clinet", event.clientX, event.clientY);
-        console.log("page", event.pageX, event.pageY);
-
         particleCreationDelay = 0;
       }
     };

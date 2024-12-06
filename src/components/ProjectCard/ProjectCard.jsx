@@ -3,37 +3,24 @@ import ProjectLanguages from "../projectLanguages/ProjectLanguages";
 import ProjectLinks from "../ProjectLinks/ProjectLinks";
 import "./ProjectCard.css";
 import { Fade } from "react-awesome-reveal";
-// import { style } from "glamor";
 
 export default function ProjectCard({ repo, theme }) {
-  console.log(repo);
-  // function openRepoinNewTab(url) {
-  //   var win = window.open(url, "_blank");
-  //   win.focus();
-  // }
-
-  // const styles = style({
-  //   color: "rgb(88, 96, 105)",
-  //   backgroundColor: "rgb(255, 255, 255)",
-  //   boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 30px -15px",
-  //   padding: "2rem",
-  //   cursor: "pointer",
-  //   borderRadius: "5px",
-  //   height: "100%",
-  //   transition: "all 0.2s ease-in-out",
-  //   ":hover": {
-  //     boxShadow: `${theme.imageDark} 0 2px 15px`,
-  //   },
-  // });
+  function openRepoinNewTab(url) {
+    const win = window.open(url, "_blank");
+    if (win) win.focus();
+  }
 
   return (
     <div>
       <Fade bottom duration={2000} distance="40px">
         <div
-          // {...styles}
+          className="project-card"
           key={repo.id}
-          // onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.projectCard }}
+          onClick={() => openRepoinNewTab(repo.url)}
+          style={{
+            backgroundColor: theme.projectCard,
+            boxShadow: `0px 10px 30px -15px rgba(0, 0, 0, 0.2)`,
+          }}
         >
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>

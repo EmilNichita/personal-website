@@ -5,18 +5,10 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-awesome-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
-// import { style } from "glamor";
 
 export default function Greeting(props) {
   const theme = props.theme;
   const history = useHistory();
-
-  // const styles = style({
-  //   backgroundColor: `${theme.accentBright}`,
-  //   ":hover": {
-  //     boxShadow: `0 5px 15px ${theme.accentBright}`,
-  //   },
-  // });
 
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -27,19 +19,21 @@ export default function Greeting(props) {
               <h1 className="greeting-text">{greeting.title}</h1>
               <p
                 className="greeting-text-p subTitle"
-                // style={{ color: theme.secondaryText }}
+                style={{ color: theme.secondaryText }}
               >
                 <span>I'm </span>
-                {/* <span style={{ color: theme.accentColor }}>
+                <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
-                </span> */}
+                </span>
                 {greeting.subTitle}
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <button
-                  // {...styles}
-                  className="button"
+                  className="button contact-button"
+                  style={{
+                    backgroundColor: theme.accentBright,
+                  }}
                   onClick={() => {
                     history.push("/contact");
                   }}

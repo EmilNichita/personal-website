@@ -41,7 +41,7 @@
 
 .projects-heading-sub-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-family: "Open Sans";
   text-align: center;
   margin-bottom: 10px;
 }
@@ -102,4 +102,29 @@
     margin-right: 10px;
     margin-top: 30px;
   }
+}
+
+
+.general-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.general-btn.btn-light {
+  background-color: var(--accent-bright);
+  color: var(--text-color);
+}
+
+.general-btn.btn-dark {
+  background-color: var(--accent-bright);
+  color: var(--text-color);
+}
+
+.general-btn:hover {
+  box-shadow: 0 5px 15px var(--accent-bright);
 }
