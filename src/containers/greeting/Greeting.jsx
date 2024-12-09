@@ -5,6 +5,7 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-awesome-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
+import Handwave from "./Handwave";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -16,7 +17,12 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text">{greeting.title}</h1>
+              <div>
+                <h1 className="greeting-text">{greeting.title}</h1>
+                <div className="greeting-handwave">
+                  <Handwave theme={theme} />
+                </div>
+              </div>
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}

@@ -8,3 +8,9 @@
 .footer-div {
   margin-top: 2rem;
 }
+
+.footer-credits {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 0.6em;
+}

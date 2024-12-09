@@ -7,12 +7,13 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Harikrushn",
-  logo_name: "e_nichita()",
-  nickname: "harry / picleric",
-  full_name: "Harikrushn Kanani",
-  subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
+  title: "Heyoo! ",
+  title2: "Emil Nichita",
+  logo_name: "emil_n()",
+  nickname: "emil",
+  full_name: "Emil Nichita",
+  subTitle:
+    " Big fan of maths, computer science, machine learning, and using Oxford commas. Always building stuff (like this website!)",
   resumeLink:
     "https://drive.google.com/file/d/1J-6kMaW67JG_AU9rzYwlGCZjge-Nzkhl/view?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",

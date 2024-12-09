@@ -21,11 +21,11 @@
     background: #292a2d;
   }
   ::-webkit-scrollbar-thumb {
-    background: #E3405F;
+    background: #4A90E2;
     border-radius: 5px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #E3405F;
+    background: #205a9d;
   }
   /* Media Query */
   @media (max-width: 1380px) {

@@ -31,21 +31,22 @@
 .greeting-text {
   margin-top: 110px;
   font-size: 70px;
-  line-height: 5px;
-  font-family: "Comic Sans";
+  line-height: 90px;
+  font-family: "Open Sans";
+  display: inline;
 }
 
 .greeting-nickname {
   font-size: 30px;
   line-height: 0px;
-  font-family: "Google Sans Bold Italic";
+  font-family: "Open Sans";
 }
 
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
   margin-right: 40px;
-  font-family: "Google Sans Medium";
+  font-family: "Open Sans";
 }
 
 .greeting-image-div > * {
@@ -127,4 +128,9 @@
 
 .contact-button:hover {
   box-shadow: 0 5px 15px var(--accent-bright);
+}
+
+.greeting-handwave {
+  width: 12%;
+  display: inline-flex;
 }
