@@ -127,7 +127,9 @@
 }
 
 .contact-button:hover {
-  box-shadow: 0 5px 15px var(--accent-bright);
+  box-shadow: 0 2px 10px #2ab0ee;
+  background-color: #2ab0ee;
+  color: #ffffff !important;
 }
 
 .greeting-handwave {

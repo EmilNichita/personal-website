@@ -13,20 +13,18 @@ const greeting = {
   nickname: "emil",
   full_name: "Emil Nichita",
   subTitle:
-    " Big fan of maths, computer science, machine learning, and using Oxford commas. Always building stuff (like this website!)",
+    " Big fan of Math, Computer Science, Machine Learning, and using Oxford commas. Always building stuff (like this website!)",
   resumeLink:
     "https://drive.google.com/file/d/1J-6kMaW67JG_AU9rzYwlGCZjge-Nzkhl/view?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+  mail: "mailto:doaremil@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
-  // facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
+  github: "https://github.com/EmilNichita",
+  linkedin: "https://www.linkedin.com/in/emil-nicolae-nichita/",
+  gmail: "doaremil@gmail.com",
+  facebook: "https://www.facebook.com/harikrishan.kanani/",
   instagram: "https://www.instagram.com/hari_kanani_/",
 };
 

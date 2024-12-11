@@ -38,7 +38,7 @@ export default function Greeting(props) {
                 <button
                   className="button contact-button"
                   style={{
-                    backgroundColor: theme.accentBright,
+                    backgroundColor: theme.accentColor,
                   }}
                   onClick={() => {
                     history.push("/contact");
