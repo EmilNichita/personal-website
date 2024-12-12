@@ -143,7 +143,7 @@ function Handwave(props) {
         d="M7.28081,-5.529716C1.405571,13.401265,-16.863964,12.986416,-16.8827,13.1237"
         transform="matrix(-.565826 0.863439-.844613-.553489 195.588299 162.594587)"
         fill="none"
-        stroke="#fff"
+        stroke={theme.body}
         strokeWidth="3"
       />
       <path
