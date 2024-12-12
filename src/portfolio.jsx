@@ -31,7 +31,7 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Backend Development",
+      title: "Machine Learning Research",
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
