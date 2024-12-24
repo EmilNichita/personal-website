@@ -77,6 +77,16 @@
   box-shadow: 0 5px 15px #1da1f2;
 }
 
+.facebook i {
+  background-color: #1877F2;
+  transition: all 0.2s ease-in-out;
+}
+
+.facebook i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #1877F2;
+}
+
 .instagram i {
   background-color: #e4405f;
   transition: all 0.2s ease-in-out;

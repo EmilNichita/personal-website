@@ -33,6 +33,15 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a
+        href={socialMediaLinks.facebook}
+        className="icon-button facebook"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-facebook"></i>
+        <span></span>
+      </a>
+      <a
         href={socialMediaLinks.instagram}
         className="icon-button instagram"
         target="_blank"

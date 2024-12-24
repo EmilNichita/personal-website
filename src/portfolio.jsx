@@ -24,8 +24,8 @@ const socialMediaLinks = {
   github: "https://github.com/EmilNichita",
   linkedin: "https://www.linkedin.com/in/emil-nicolae-nichita/",
   gmail: "doaremil@gmail.com",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
-  instagram: "https://www.instagram.com/hari_kanani_/",
+  facebook: "https://www.facebook.com/nichita.emil/",
+  instagram: "https://www.instagram.com/emil.nichita/",
 };
 
 const skills = {
