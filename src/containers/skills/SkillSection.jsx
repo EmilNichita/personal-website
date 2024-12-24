@@ -32,7 +32,15 @@ function SkillSection(props) {
 
               <div className="skills-text-div">
                 <Fade right duration={1000}>
-                  <h1 className="skills-heading" style={{ color: theme.text }}>
+                  <h1
+                    className="skills-heading"
+                    style={{
+                      color: theme.text,
+                      lineHeight: "1.0em",
+                      marginBlockStart: "0.0em",
+                      marginBlockEnd: "0.0em",
+                    }}
+                  >
                     {skill.title}
                   </h1>
                 </Fade>
