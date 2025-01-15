@@ -13,7 +13,7 @@ const greeting = {
   nickname: "emil",
   full_name: "Emil Nichita",
   subTitle:
-    ", and I'm an ML Researcher/Engineer. Welcome to my scrappy, hacky, just-learned-to-sort-of-do-webdev website!",
+    ", and I'm an ML Researcher and Engineer. Feel free to browse around, and learn more about what I do!",
   resumeLink:
     "https://drive.google.com/file/d/1J-6kMaW67JG_AU9rzYwlGCZjge-Nzkhl/view?usp=sharing",
   mail: "mailto:doaremil@gmail.com",
@@ -157,68 +157,125 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Software Engineering",
+      fileName: "SoftwareEngineering",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ I'm a proficient Python developer, including writing, building, deploying, and maintaining packages",
+        "⚡ I have 5 years of AWS experience, including S3, Batch, ECR, EC2, ECS, Lambda, DynamoDB, CloudWatch",
+        "⚡ I built and maintained continuous integration & deployment workflows for software and complex ML systems",
+        "⚡ I sometimes dive into back-end / front-end projects (like this website!)",
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "PyPi",
+          fontAwesomeClassname: "devicon:pypi",
           style: {
             color: "#FF9900",
           },
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
+          skillName: "PyTest",
+          fontAwesomeClassname: "devicon:pytest-wordmark",
           style: {
-            color: "#38AFBB",
+            color: "#FF9900",
           },
         },
         {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
+          skillName: "MyPy",
+          fontAwesomeClassname: "devicon-plain:python",
           style: {
-            color: "#6863A6",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "UV",
+          fontAwesomeClassname: "simple-icons:astral",
           style: {
-            color: "#FFCA28",
+            color: "#FFCD00",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Sphinx",
+          fontAwesomeClassname: "simple-icons:sphinx",
           style: {
-            color: "#336791",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "AWS",
+          fontAwesomeClassname: "skill-icons:aws-light",
           style: {
-            color: "#47A248",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "skill-icons:git",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Bitbucket",
+          fontAwesomeClassname: "logos:bitbucket",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Bash",
+          fontAwesomeClassname: "logos:bash",
+          style: {
+            color: "#FF9900",
           },
         },
         {
           skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          fontAwesomeClassname: "skill-icons:docker",
           style: {
-            color: "#1488C6",
+            color: "#FF9900",
           },
         },
         {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
+          skillName: "Seldon",
+          fontAwesomeClassname: "mdi:gear",
           style: {
-            color: "#5b77ef",
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Grafana",
+          fontAwesomeClassname: "devicon:grafana",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "HTML",
+          fontAwesomeClassname: "material-symbols:html",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "CSS",
+          fontAwesomeClassname: "material-symbols:css",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "logos:javascript",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "React",
+          fontAwesomeClassname: "devicon:react",
+          style: {
+            color: "#FF9900",
           },
         },
       ],
