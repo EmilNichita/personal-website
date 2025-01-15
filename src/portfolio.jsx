@@ -42,121 +42,114 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
+          fontAwesomeClassname: "devicon:python",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Jupyter",
+          fontAwesomeClassname: "devicon:jupyter-wordmark",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Streamlit",
+          fontAwesomeClassname: "simple-icons:streamlit",
+          style: {
+            color: "#FF4B4B",
+          },
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "devicon:pandas",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Matplotlib",
+          fontAwesomeClassname: "logos:matplotlib-icon",
+          style: {
+            color: "#FFFF00",
+            fill: "FFFF00"
+          },
+        },
+        {
+          skillName: "Scikit Learn",
+          fontAwesomeClassname: "devicon:scikitlearn",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "devicon:pytorch",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Lightning",
+          fontAwesomeClassname: "simple-icons:lightning",
+          style: {
+            color: "#792EE5",
+          },
+        },
+        {
+          skillName: "Huggingface",
+          fontAwesomeClassname: "simple-icons:huggingface",
+          style: {
+            color: "#FFD21E",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "vscode-icons:file-type-docker2",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "DVC",
+          fontAwesomeClassname: "simple-icons:dvc",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Weights & Biases",
+          fontAwesomeClassname: "simple-icons:weightsandbiases",
+          style: {
+            color: "#FFBE00",
+          },
+        },
+        {
+          skillName: "MLFlow",
+          fontAwesomeClassname: "simple-icons:mlflow",
+          style: {
+            color: "#0194E2",
+          },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "skill-icons:aws-light",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Slurm",
+          fontAwesomeClassname: "carbon:ibm-cloud-hpc",
           style: {
             color: "#3776AB",
           },
