@@ -1,6 +1,7 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
+import { socialMediaLinks } from "../../portfolio";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-awesome-reveal";
 import { useHistory } from "react-router-dom";
@@ -41,7 +42,7 @@ export default function Greeting(props) {
                     backgroundColor: theme.accentColor,
                   }}
                   onClick={() => {
-                    history.push("/contact");
+                    window.location.href = `mailto:${socialMediaLinks.gmail}`
                   }}
                 >
                   Contact Me

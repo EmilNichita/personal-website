@@ -7,7 +7,7 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello there! ",
+  title: "Hello World! ",
   title2: "Emil Nichita",
   logo_name: "emil_n()",
   nickname: "emil",
@@ -158,7 +158,7 @@ const skills = {
     },
     {
       title: "Software Engineering",
-      fileName: "SoftwareEngineering",
+      fileName: "SoftwareEngineerImg",
       skills: [
         "⚡ I'm a proficient Python developer, including writing, building, deploying, and maintaining packages",
         "⚡ I have 5 years of AWS experience, including S3, Batch, ECR, EC2, ECS, Lambda, DynamoDB, CloudWatch",
