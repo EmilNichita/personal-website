@@ -7,13 +7,13 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Welcome! ",
+  title: "Hello there! ",
   title2: "Emil Nichita",
   logo_name: "emil_n()",
   nickname: "emil",
   full_name: "Emil Nichita",
   subTitle:
-    " Big fan of Math, Computer Science, Machine Learning, and using Oxford commas. Always building stuff (like this website!)",
+    ", and I'm an ML Researcher/Engineer. Welcome to my scrappy, hacky, just-learned-to-sort-of-do-webdev website!",
   resumeLink:
     "https://drive.google.com/file/d/1J-6kMaW67JG_AU9rzYwlGCZjge-Nzkhl/view?usp=sharing",
   mail: "mailto:doaremil@gmail.com",
@@ -31,14 +31,14 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Machine Learning Research",
-      fileName: "FullStackImg",
+      title: "Machine Learning Research & Engineering",
+      fileName: "MLResearchImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ I stay up to date with the latest ML research community and papers, looking for opportunities to innovate",
+        "⚡ I build highly effective ML models, optimizing for performance, interpretability, and scalability to address complex real-world problems",
+        "⚡ I design and run large-scale experiments, leveraging high-performance computing and efficient workflows to ensure robust and reproducible results",
+        "⚡ I collaborate across interdisciplinary teams to design and deploy ML solutions that integrate seamlessly into real-life applications and systems",
+        "⚡ I architect and implement complex end-to-end learning loops, including data preprocessing, model training, evaluation, and deployment, ensuring efficiency and reliability",
       ],
       softwareSkills: [
         {
@@ -98,13 +98,6 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
         {
           skillName: "Android",
           fontAwesomeClassname: "simple-icons:android",
@@ -119,27 +112,6 @@ const skills = {
             color: "#f89820",
           },
         },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -147,13 +119,6 @@ const skills = {
             color: "#4479A1",
           },
         },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
         {
           skillName: "Wordpress",
           fontAwesomeClassname: "simple-icons:wordpress",
