@@ -53,7 +53,7 @@ function SkillSection(props) {
                         className="subTitle skills-text"
                         style={{ color: theme.secondaryText }}
                       >
-                        {skillSentence}
+                        <b>○</b> {skillSentence}
                       </p>
                     ))}
                   </div>
@@ -81,7 +81,7 @@ function SkillSection(props) {
                         className="subTitle skills-text"
                         style={{ color: theme.secondaryText }}
                       >
-                        {skillSentence}
+                        <b>○</b> {skillSentence}
                       </p>
                     ))}
                   </div>

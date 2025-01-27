@@ -12,6 +12,8 @@ export default function Greeting(props) {
   const theme = props.theme;
   const history = useHistory();
 
+  const [buttonHoverStyle, setButtonHoverStyle] = React.useState({})
+
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -40,7 +42,12 @@ export default function Greeting(props) {
                   className="button contact-button"
                   style={{
                     backgroundColor: theme.accentColor,
+                    ...buttonHoverStyle,
                   }}
+                  onMouseOver={() => setButtonHoverStyle({
+                    boxShadow: `0 2px 10px ${theme.accentColor}`,
+                  })}
+                  onMouseOut={() => setButtonHoverStyle({})}
                   onClick={() => {
                     window.location.href = `mailto:${socialMediaLinks.gmail}`
                   }}

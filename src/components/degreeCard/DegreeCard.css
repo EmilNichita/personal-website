@@ -6,13 +6,13 @@
 }
 
 .card-title {
-  font-family: "Google Sans Medium";
+  font-family: "Open Sans";
   font-size: 23px;
   margin-left: 10px;
 }
 
 .card-subtitle {
-  font-family: "Google Sans Medium";
+  font-family: "Open Sans";
   font-size: 18px;
   margin-top: 7px;
   margin-bottom: 5px;
@@ -45,8 +45,11 @@
   max-width: inherit;
   border-radius: 0px 0px 7px 7px;
   padding: 5px;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: column; /* Stack the list and button vertically */
+  justify-content: space-between; /* Space between the list and the button */
+  align-items: flex-start; /* Align items to the left */
+  position: relative;
 }
 
 .content-list {
@@ -96,19 +99,33 @@
   padding: 10px;
   margin-right: 50px;
   transition: all 0.2s ease-in-out;
-}
-
-.degree-card-img:hover {
-  box-shadow: 0 5px 15px var(--accent-color);
+  overflow: hidden;
 }
 
 .degree-card-body {
   border-radius: 7px;
-  width: 90%;
+  width: 1300px;
   margin: 10px;
   transition: all 0.2s ease-in-out;
 }
 
 .degree-card-body:hover {
   box-shadow: 0 5px 15px var(--accent-color);
+}
+
+.visit-button {
+  position: absolute;
+  bottom: 10px; /* Position the button 10px above the bottom edge */
+  right: 10px; /* Position the button 10px from the right edge */
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.body-content-list {
+  display: flex;
+  flex-direction: column; /* Stack the text vertically */
+  gap: 10px; /* Add spacing between <p> elements */
+  width: 100%;
 }

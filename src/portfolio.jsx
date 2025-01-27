@@ -34,11 +34,11 @@ const skills = {
       title: "Machine Learning Research & Engineering",
       fileName: "MLResearchImg",
       skills: [
-        "⚡ I stay up to date with the latest ML research community and papers, looking for opportunities to innovate",
-        "⚡ I build highly effective ML models, optimizing for performance, interpretability, and scalability to address complex real-world problems",
-        "⚡ I design and run large-scale experiments, leveraging high-performance computing and efficient workflows to ensure robust and reproducible results",
-        "⚡ I collaborate across interdisciplinary teams to design and deploy ML solutions that integrate seamlessly into real-life applications and systems",
-        "⚡ I architect and implement complex end-to-end learning loops, including data preprocessing, model training, evaluation, and deployment, ensuring efficiency and reliability",
+        "I always read and (most often!) understand the latest ML research news and papers, I like to be up to date with every innovation!",
+        "I like building ML models to address real-world problems - from scratch, fine tuned, or using frameworks, careful to ensure performance and scale!",
+        "I design and run large-scale experiments, leveraging high-performance computing and efficient workflows to ensure robust and reproducible results",
+        "I enjoy collaboration across interdisciplinary teams to design and deploy ML solutions",
+        "I architect and implement complex end-to-end learning loops, including data preprocessing, model training, evaluation, and deployment, ensuring efficiency and reliability",
       ],
       softwareSkills: [
         {
@@ -76,6 +76,10 @@ const skills = {
             color: "#FFFF00",
             fill: "FFFF00"
           },
+        },
+        {
+          skillName: "Plotly",
+          fontAwesomeClassname: "devicon:plotly",
         },
         {
           skillName: "Scikit Learn",
@@ -160,12 +164,27 @@ const skills = {
       title: "Software Engineering",
       fileName: "SoftwareEngineerImg",
       skills: [
-        "⚡ I'm a proficient Python developer, including writing, building, deploying, and maintaining packages",
-        "⚡ I have 5 years of AWS experience, including S3, Batch, ECR, EC2, ECS, Lambda, DynamoDB, CloudWatch",
-        "⚡ I built and maintained continuous integration & deployment workflows for software and complex ML systems",
-        "⚡ I sometimes dive into back-end / front-end projects (like this website!)",
+        "I'm a proficient Python developer, including writing, building, deploying, and maintaining packages",
+        "I have 5 years of AWS experience, including S3, Batch, ECR, EC2, ECS, Lambda, DynamoDB, CloudWatch",
+        "I built and maintained continuous integration & deployment workflows for software and complex ML systems",
+        "I often make time to learn a new software stack through projects (like this website, learning HTML/CSS/JS/React/NPM!)",
       ],
       softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "devicon:python",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
+          style: {
+            color: "#00599C",
+          },
+        },
+
         {
           skillName: "PyPi",
           fontAwesomeClassname: "devicon:pypi",
@@ -224,9 +243,9 @@ const skills = {
         },
         {
           skillName: "Bash",
-          fontAwesomeClassname: "logos:bash",
+          fontAwesomeClassname: "simple-icons:gnubash",
           style: {
-            color: "#FF9900",
+            color: "#000000",
           },
         },
         {
@@ -286,28 +305,34 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
-      subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - 2024",
+      title: "University of Oxford",
+      subtitle: "Master of Mathematics and Computer Science",
+      logo_path: "university_of_oxford.png",
+      logo_style: {
+        transform: "scale(350%, 350%)",
+      },
+      alt_name: "uni_of_oxford",
+      duration: "2015 - 2019",
       descriptions: [
-        "⚡ I have studied core subjects like Machine Learning, Computer Vision, Advanced Web Development.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "○ Integrated Master of Mathematics and Computer Science, 4 years",
+        "○ Notable coursework: Machine Learning, Algorithms, Probability Theory, Graph Theory, Linear Algebra, Real and Complex Analysis ",
+        "○ W.I.P",
+
       ],
-      website_link: "http://www.ssgec.ac.in/",
+      website_link: "https://www.ox.ac.uk/",
     },
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
-      duration: "2018 - 2021",
+      title: "National College \"Mircea cel Batran\"",
+      subtitle: "Math and Computer Science Profile",
+      logo_path: "CNMB-logo.jpeg",
+      logo_style: {
+        transform: "scale(117%, 117%) translate(0px, 2px)",
+      },
+      alt_name: "CNMB",
+      duration: "2011 - 2015",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-        "⚡ I have secured 9.82 CGPA.",
+        "○ W.I.P",
+        "○ ",
       ],
       website_link: "http://www.ssgc.cteguj.in/",
     },
@@ -316,81 +341,17 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#47A048",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
-    },
-    {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
-    },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
+    // {
+    //   title: "M0001: MongoDB Basics",
+    //   subtitle: "MongoDB University",
+    //   logo_path: "mongo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
+    //   alt_name: "MongoDB University",
+    //   // color_code: "#2AAFED",
+    //   color_code: "#47A048",
+    // },
+    
   ],
 };
 

@@ -126,12 +126,6 @@
   transition: all 0.2s ease-in-out;
 }
 
-.contact-button:hover {
-  box-shadow: 0 2px 10px #2ab0ee;
-  background-color: #2ab0ee;
-  color: #ffffff !important;
-}
-
 .greeting-handwave {
   width: 12%;
   display: inline-flex;

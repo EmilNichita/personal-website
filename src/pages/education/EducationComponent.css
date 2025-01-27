@@ -22,6 +22,7 @@
 
 .heading-text-div {
   text-align: center;
+  margin: auto;
 }
 
 .heading-img-div > * {
@@ -32,7 +33,7 @@
 .heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Open Sans";
   line-height: 1.1;
   text-align: center;
   margin-top: 100px;
@@ -40,6 +41,12 @@
 
 .heading-sub-text {
   font-size: 30px;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.coming-soon {
+  font-size: 24px;
   font-family: "Open Sans";
   text-align: center;
 }

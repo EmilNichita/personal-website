@@ -22,7 +22,7 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={`../../assests/images/${ContactData["profile_image_path"]}`}
+                src={`../../assets/images/${ContactData["profile_image_path"]}`}
                 alt=""
               />
             </div>

@@ -77,7 +77,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
               >
-                Education and Certifications
+                Education
               </NavLink>
             </li>
             <li>
