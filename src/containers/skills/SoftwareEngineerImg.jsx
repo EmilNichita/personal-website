@@ -3,7 +3,7 @@ import React from "react";
 export default function SoftwareEngineerImg(props) {
   const theme = props.theme;
   return (
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 <g id="BACKGROUND">
 	<g>
@@ -178,8 +178,8 @@ export default function SoftwareEngineerImg(props) {
 			<g>
 				<g>
 					<radialGradient id="SVGID_1_" cx="277.5197" cy="192.3786" r="12.9255" gradientUnits="userSpaceOnUse">
-						<stop  offset="0" stop-color="#FFC8AF"/>
-						<stop  offset="1" stop-color="#FFBB9C"/>
+						<stop  offset="0" stopColor="#FFC8AF"/>
+						<stop  offset="1" stopColor="#FFBB9C"/>
 					</radialGradient>
 					<path fill="url(#SVGID_1_)" d="M289.826,192.922c-0.112,1.134-1.662,12.973-13.836,12.973
 						c-12.782,0-10.641-12.654-10.641-12.654l-0.016-0.08c1.246-0.256,2.588-0.352,4.01-0.192v-5.992l14.507-8.116h0.527v13.98
@@ -189,8 +189,8 @@ export default function SoftwareEngineerImg(props) {
 							<g>
 								
 									<radialGradient id="SVGID_00000044863639999109743620000009231584149797860027_" cx="279.6045" cy="169.1875" r="20.3775" gradientTransform="matrix(0.9776 -0.2105 0.2105 0.9776 -38.9136 62.4417)" gradientUnits="userSpaceOnUse">
-									<stop  offset="0" stop-color="#FFC8AF"/>
-									<stop  offset="1" stop-color="#FFBB9C"/>
+									<stop  offset="0" stopColor="#FFC8AF"/>
+									<stop  offset="1" stopColor="#FFBB9C"/>
 								</radialGradient>
 								<path fill="url(#SVGID_00000044863639999109743620000009231584149797860027_)" d="M282.78,152.117
 									c2.057,2.086,3.612,4.786,4.36,8.085c1.394,6.146,0.082,12.649-1.701,18.572c-0.305,1.013-0.651,2.035-1.277,2.888
@@ -243,8 +243,8 @@ export default function SoftwareEngineerImg(props) {
 					<g>
 						
 							<radialGradient id="SVGID_00000137836247421745558380000003414876170989042109_" cx="249.9626" cy="387.5479" r="8.1259" gradientUnits="userSpaceOnUse">
-							<stop  offset="0" stop-color="#FFC8AF"/>
-							<stop  offset="1" stop-color="#FFBB9C"/>
+							<stop  offset="0" stopColor="#FFC8AF"/>
+							<stop  offset="1" stopColor="#FFBB9C"/>
 						</radialGradient>
 						<polygon fill="url(#SVGID_00000137836247421745558380000003414876170989042109_)" points="254.324,379.903 
 							258.542,389.521 245.617,395.193 241.383,385.543 						"/>
@@ -254,8 +254,8 @@ export default function SoftwareEngineerImg(props) {
 							/>
 						
 							<radialGradient id="SVGID_00000167377973443143421330000008811520089758636950_" cx="198.4986" cy="389.5859" r="7.4015" gradientUnits="userSpaceOnUse">
-							<stop  offset="0" stop-color="#FFC8AF"/>
-							<stop  offset="1" stop-color="#FFBB9C"/>
+							<stop  offset="0" stopColor="#FFC8AF"/>
+							<stop  offset="1" stopColor="#FFBB9C"/>
 						</radialGradient>
 						<polygon fill="url(#SVGID_00000167377973443143421330000008811520089758636950_)" points="205.048,382.377 
 							206.057,396.827 191.949,396.827 190.94,382.345 						"/>
@@ -279,8 +279,8 @@ export default function SoftwareEngineerImg(props) {
 							C249.627,250.679,248.684,250.839,247.742,251.015z"/>
 						
 							<radialGradient id="SVGID_00000058574314137871453090000003037064763140154258_" cx="243.5606" cy="250.6974" r="41.4442" gradientUnits="userSpaceOnUse">
-							<stop  offset="0" stop-color="#FFC8AF"/>
-							<stop  offset="1" stop-color="#FFBB9C"/>
+							<stop  offset="0" stopColor="#FFC8AF"/>
+							<stop  offset="1" stopColor="#FFBB9C"/>
 						</radialGradient>
 						<path fill="url(#SVGID_00000058574314137871453090000003037064763140154258_)" d="M231.461,253.747l-0.208,6.998
 							H205.69c0,0,2.54-9.986,9.459-9.986c6.918,0,9.586,3.659,9.586,3.659L231.461,253.747z"/>
@@ -296,8 +296,8 @@ export default function SoftwareEngineerImg(props) {
 				</g>
 				
 					<radialGradient id="SVGID_00000016781500860519117160000010994153723609192887_" cx="243.5606" cy="250.6974" r="41.444" gradientUnits="userSpaceOnUse">
-					<stop  offset="0" stop-color="#FFC8AF"/>
-					<stop  offset="1" stop-color="#FFBB9C"/>
+					<stop  offset="0" stopColor="#FFC8AF"/>
+					<stop  offset="1" stopColor="#FFBB9C"/>
 				</radialGradient>
 				<path fill="url(#SVGID_00000016781500860519117160000010994153723609192887_)" d="M298.421,249.561l-25.036-8.867
 					c-1.821,3.403-3.771,5.96-5.704,6.471c-2.924,0.767-9.986,2.093-17.112,3.339c-0.943,0.176-1.885,0.335-2.828,0.511
@@ -379,8 +379,8 @@ export default function SoftwareEngineerImg(props) {
 				<g>
 					
 						<linearGradient id="SVGID_00000180324669040237356030000002157107430969447595_" gradientUnits="userSpaceOnUse" x1="489.9151" y1="93.5885" x2="450.5752" y2="143.1809" gradientTransform="matrix(0.7834 -0.6215 0.6215 0.7834 -58.0954 529.938)">
-						<stop  offset="0" stop-color="#606BF1"/>
-						<stop  offset="1" stop-color="#58479F"/>
+						<stop  offset="0" stopColor="#606BF1"/>
+						<stop  offset="1" stopColor="#58479F"/>
 					</linearGradient>
 					<path fill="url(#SVGID_00000180324669040237356030000002157107430969447595_)" d="M393.183,337.215
 						c-1.716,8.325-1.199,22.506-12.213,24.752c-2.966,0.605-5.831-1.451-7.555-3.807c-2.256-3.083-2.796-9.609-2.756-13.341
@@ -441,8 +441,8 @@ export default function SoftwareEngineerImg(props) {
 				<g>
 					
 						<linearGradient id="SVGID_00000121994961896320987300000017678113832620973741_" gradientUnits="userSpaceOnUse" x1="592.9305" y1="-19.9338" x2="553.5917" y2="29.6572" gradientTransform="matrix(0.4479 -0.8941 0.8941 0.4479 85.9095 842.98)">
-						<stop  offset="0" stop-color="#606BF1"/>
-						<stop  offset="1" stop-color="#58479F"/>
+						<stop  offset="0" stopColor="#606BF1"/>
+						<stop  offset="1" stopColor="#58479F"/>
 					</linearGradient>
 					<path fill="url(#SVGID_00000121994961896320987300000017678113832620973741_)" d="M358.328,334.831
 						c1.958,8.272,8.412,20.909-0.625,27.594c-2.434,1.8-5.898,1.145-8.456-0.263c-3.346-1.842-6.59-7.531-8.129-10.931
@@ -503,8 +503,8 @@ export default function SoftwareEngineerImg(props) {
 				<g>
 					
 						<linearGradient id="SVGID_00000137817307166775682990000007025299650096740021_" gradientUnits="userSpaceOnUse" x1="552.5735" y1="16.139" x2="503.8899" y2="77.5101" gradientTransform="matrix(0.6073 -0.7945 0.7945 0.6073 6.1873 714.3383)">
-						<stop  offset="0" stop-color="#606BF1"/>
-						<stop  offset="1" stop-color="#58479F"/>
+						<stop  offset="0" stopColor="#606BF1"/>
+						<stop  offset="1" stopColor="#58479F"/>
 					</linearGradient>
 					<path fill="url(#SVGID_00000137817307166775682990000007025299650096740021_)" d="M377.417,328.42
 						c0.465,10.51,5.385,27.367-7.148,33.402c-3.375,1.625-7.436,0.027-10.219-2.277c-3.641-3.015-6.268-10.681-7.352-15.171

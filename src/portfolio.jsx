@@ -362,72 +362,35 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "As a Node.js Backend Developer, I have worked with real projects for over two years. I've mostly done projects on my own. I love organizing workshops to share my knowledge with others.",
+    "Some statement about my current 5 year experience in machine learning coming soon!",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Software Engineer",
-          company: "Crest Infosystems Pvt. Ltd.",
-          company_url: "https://www.crestinfosystems.com/",
+          title: "Senior AI Researcher",
+          company: "Exscientia Ltd.",
+          company_url: "https://www.exscientia.com/",
           logo_path: "crest.png",
-          duration: "Jan 2024 - Present",
-          location: "Surat, Gujarat",
-          description: `Worked on enterprise-level software solutions including employee
-activity tracking system, point of sale system and support ticket
-systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
-multiple projects by developing and maintaining full-stack web apps
-with modern technologies like Electron.js, React.js, Node.js, and
-Sequelize. Designed and implemented custom solutions for tracking employee
-activity and database optimizations, resulting in improvement in
-performance.`,
+          duration: "Jan 2022 - Nov 2024",
+          location: "Oxford, United Kingdom",
+          description: [
+            `○ Led a cross-functional team focused on active learning, multi-parameter optimization,
+              and uncertainty quantification. \n
+              Attributes included individual contributions in code bases and research, 
+              setting long term roadmaps, managing ongoing projects and communicating to users, front-end developers,
+              and the board. (09/2023 - 10/2024)`,
+            `○ Led a cross-functional team of researchers and engineers focused on molecular property prediction,
+             both developing the required cloud infrastructure and producing state of the art results using classical
+             and large scale models for chemistry on 100% of internal assays. (03/2022 - 09/2023)`,
+            `○ Designed, implemented and open sourced a python framework for config driven model building,
+             greatly improving the reproducibility, automation and the internal speed of development - MolFlux.
+             This has been adopted in Exscientia for molecular predictive modelling.`,
+            `○ Worked closely with both MLOps engineers and model customers, to successfully migrate the MLOps
+             stack and user facing infrastructure to Seldon and Prefect.`,
+          ],
           color: "#0071C5",
-        },
-        {
-          title: "Node.js Backend Developer",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Dec 2022",
-          location: "Surat, Gujarat",
-          description: `Train, oversee, and mentor young software development employees. I created and managed the admin panel backend and a gambling application as a Node.js backend developer. I obtained knowledge in Web Socket, Payment Gateway Integration, and gaming legislation, while growing my industry experience and investigating new technologies.
-          Focus on change request functions in close collaboration with the project manager and team leads.
-          Developed new and maintained existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        // {
-        //   title: "Node.js Backend Developer (Intern)",
-        //   company: "Valora Infotech",
-        //   company_url: "http://valorainfotech.com/",
-        //   logo_path: "valora.jpg",
-        //   duration: "Oct 2020 - Mar 2021",
-        //   location: "Surat, Gujarat",
-        //   description: `Focus on change request functions in close collaboration with the project manager and team leads.
-        //   Developed new and maintained existing applications.
-        //   Increased productivity and problem-solving technics by 20%.
-        //   We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-        //   `,
-        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-        //   color: "#0071C5",
-        // },
-        {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description: `Maintain close contact with the client and team when handling change requests.
-          LAMP Stack was mostly utilised. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
         },
       ],
     },
