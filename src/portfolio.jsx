@@ -315,8 +315,8 @@ const degrees = {
       duration: "2015 - 2019",
       descriptions: [
         "○ Integrated Master of Mathematics and Computer Science, 4 years",
-        "○ Notable coursework: Machine Learning, Algorithms, Probability Theory, Graph Theory, Linear Algebra, Real and Complex Analysis ",
-        "○ W.I.P",
+        "○ Notable coursework: Machine Learning, Algorithms and Data Structures, Probability Theory, Graph Theory, Linear Algebra, Real and Complex Analysis, Advanced Databases, Functional Programming ",
+        "○ Notable practical projects: coming soon!",
 
       ],
       website_link: "https://www.ox.ac.uk/",
@@ -331,10 +331,12 @@ const degrees = {
       alt_name: "CNMB",
       duration: "2011 - 2015",
       descriptions: [
-        "○ W.I.P",
-        "○ ",
+        "○ Romanian Baccalaureate (97.5%)",
+        "○ 5 medals at the Romanian National Math Olympiad, including a gold one in 2013",
+        "○ Second prize in the International Space Settlement Contest organised by NASA in Orlando,US",
+        "○ Over 50 other prizes in national contests in Mathematics and Computer Science",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://www.cnmbct.ro/",
     },
   ],
 };

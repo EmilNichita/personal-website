@@ -44,7 +44,6 @@
 .body-content {
   max-width: inherit;
   border-radius: 0px 0px 7px 7px;
-  padding: 5px;
   display: flex;
   flex-direction: column; /* Stack the list and button vertically */
   justify-content: space-between; /* Space between the list and the button */
@@ -53,7 +52,7 @@
 }
 
 .content-list {
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 10px;
   font-family: "Open Sans";
 }
@@ -126,6 +125,5 @@
 .body-content-list {
   display: flex;
   flex-direction: column; /* Stack the text vertically */
-  gap: 10px; /* Add spacing between <p> elements */
   width: 100%;
 }
