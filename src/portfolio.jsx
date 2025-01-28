@@ -392,6 +392,30 @@ const experience = {
           ],
           color: "#0071C5",
         },
+        {
+          title: "AI Researcher",
+          company: "Exscientia Ltd.",
+          company_url: "https://www.exscientia.com/",
+          logo_path: "crest.png",
+          duration: "Jan 2022 - Nov 2024",
+          location: "Oxford, United Kingdom",
+          description: [
+            `○ Led a cross-functional team focused on active learning, multi-parameter optimization,
+              and uncertainty quantification. \n
+              Attributes included individual contributions in code bases and research, 
+              setting long term roadmaps, managing ongoing projects and communicating to users, front-end developers,
+              and the board. (09/2023 - 10/2024)`,
+            `○ Led a cross-functional team of researchers and engineers focused on molecular property prediction,
+             both developing the required cloud infrastructure and producing state of the art results using classical
+             and large scale models for chemistry on 100% of internal assays. (03/2022 - 09/2023)`,
+            `○ Designed, implemented and open sourced a python framework for config driven model building,
+             greatly improving the reproducibility, automation and the internal speed of development - MolFlux.
+             This has been adopted in Exscientia for molecular predictive modelling.`,
+            `○ Worked closely with both MLOps engineers and model customers, to successfully migrate the MLOps
+             stack and user facing infrastructure to Seldon and Prefect.`,
+          ],
+          color: "#0071C5",
+        },
       ],
     },
     {
