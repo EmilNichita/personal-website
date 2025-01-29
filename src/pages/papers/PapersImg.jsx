@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function BlogsImg(props) {
+export default function PapersImg(props) {
   const theme = props.theme;
   return (
     <svg

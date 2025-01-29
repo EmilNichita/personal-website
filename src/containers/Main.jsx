@@ -4,7 +4,7 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
-import Contact from "../pages/contact/ContactComponent";
+import Papers from "../pages/papers/PapersComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.jsx";
 
@@ -57,9 +57,9 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/contact"
+              path="/papers"
               render={(props) => (
-                <Contact
+                <Papers
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}

@@ -105,12 +105,12 @@ function Header(props) {
             <li>
               <NavLink
                 className="cr"
-                to="/contact"
+                to="/papers"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
               >
-                Contact and Resume
+                Papers
               </NavLink>
             </li>
             <button
