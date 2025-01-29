@@ -30,7 +30,7 @@ function DegreeCard(props) {
               maxHeight: "100%",
               transform: degree.logo_style?.transform || "none",
             }}
-            src={`../../assets/images/${degree.logo_path}`}
+            src={`assets/images/${degree.logo_path}`}
             alt={degree.alt_name}
           />
         </div>

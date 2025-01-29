@@ -15,13 +15,13 @@ function Papers(props) {
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-papers">
         <PapersImg theme={props.theme} style={{width: "500px"}}/>
-        <h1>Coming Soon!</h1>
+        <h1 style={{ "text-align": "center"}}>Coming Soon!</h1>
         <Fade bottom duration={1000} distance="40px">
           <div className="papers-heading-div">
             <div className="papers-heading-img-div">
               <img
                 className="papers-pic"
-                src={`../../assets/images/${papersPageData["profile_image_path"]}`}
+                src={`assets/images/${papersPageData["profile_image_path"]}`}
                 alt=""
               />
             </div>

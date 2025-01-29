@@ -27,7 +27,7 @@ function AchievementCard(props) {
             >
               <img
                 className="logo_img"
-                src={`../../assets/images/${achievement.logo_path}`}
+                src={`assets/images/${achievement.logo_path}`}
                 alt={achievement.alt_name}
               />
             </div>

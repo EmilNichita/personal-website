@@ -8,7 +8,7 @@ import Main from "./containers/Main";
 import BinaryTrailCursor from "./components/cursor/BinaryTrailCursor.jsx";
 
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
   return (
     <ThemeProvider theme={themes[theme]}>
