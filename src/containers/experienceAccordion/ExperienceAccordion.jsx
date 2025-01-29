@@ -7,8 +7,20 @@ import { DarkTheme, LightTheme, ThemeProvider } from "baseui";
 function ExperienceAccordion(props) {
   const theme = props.theme;
 
+  const [accordionHoverStyle, setAccordionHoverStyle] = React.useState({})
+
   return (
-    <div className="experience-accord">
+    <div 
+      className="experience-accord"
+      style={{
+        border: `2px solid ${theme.accentColor}`,
+        ...accordionHoverStyle,
+      }}
+      onMouseOver={() => setAccordionHoverStyle({
+        boxShadow: `0 2px 10px ${theme.accentColor}`,
+      })}
+      onMouseOut={() => setAccordionHoverStyle({})}
+    >
       <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}>
         <Accordion onChange={({ expanded }) => console.log(expanded)}>
           {props.sections.map((section) => {

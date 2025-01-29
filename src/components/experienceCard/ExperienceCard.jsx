@@ -4,13 +4,22 @@ import "./ExperienceCard.css";
 function ExperienceCard(props) {
   const experience = props.experience;
   const theme = props.theme;
+  const [experienceHoverStyle, setExperienceHoverStyle] = React.useState({})
+  
+  
   return (
     <div
       className="experience-card"
       style={{
-        border: `1px solid ${experience["color"]}`,
+        border: `1px solid ${theme.accentColor}`,
         backgroundColor: theme.imageDark,
+        ...experienceHoverStyle,
       }}
+      onMouseOver={() => setExperienceHoverStyle({
+        boxShadow: `0 2px 10px ${theme.accentColor}`,
+      })}
+      onMouseOut={() => setExperienceHoverStyle({})}
+
     >
       <div className="experience-card-logo-div">
         <img
