@@ -7,6 +7,8 @@ function DegreeCard(props) {
   const theme = props.theme;
 
   const [logoHoverStyle, setLogoHoverStyle] = React.useState({})
+  const [degreeTextHoverStyle, setDegreeTextHoverStyle] = React.useState({})
+  const [websiteHoverStyle, setWebsiteHoverStyle] = React.useState({})
 
   return (
     <div className="degree-card">
@@ -28,7 +30,7 @@ function DegreeCard(props) {
               maxHeight: "100%",
               transform: degree.logo_style?.transform || "none",
             }}
-            src={`/assets/images/${degree.logo_path}`}
+            src={`../../assets/images/${degree.logo_path}`}
             alt={degree.alt_name}
           />
         </div>
@@ -41,7 +43,12 @@ function DegreeCard(props) {
             borderLeft: `1px solid ${theme.accentColor}`,
             borderRight: `1px solid ${theme.accentColor}`,
             boxShadow: `0px 1px 5px ${theme.accentColor}`,
+            ...degreeTextHoverStyle,
           }}
+          onMouseOver={() => setDegreeTextHoverStyle({
+            boxShadow: `0 2px 10px ${theme.accentColor}`,
+          })}
+          onMouseOut={() => setDegreeTextHoverStyle({})}
         >
           <div
             className="body-header"
@@ -83,8 +90,13 @@ function DegreeCard(props) {
                 className="visit-button"
                 style={{
                   backgroundColor: theme.accentColor,
-                  color: theme.text,
+                  color: "#FFFFFF",
+                  ...websiteHoverStyle,
                 }}
+                onMouseOver={() => setWebsiteHoverStyle({
+                  boxShadow: `0 2px 10px ${theme.accentColor}`,
+                })}
+                onMouseOut={() => setWebsiteHoverStyle({})}
               >
                 Visit Website
               </p>

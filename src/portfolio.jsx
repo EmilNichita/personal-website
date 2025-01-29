@@ -372,7 +372,7 @@ const experience = {
           title: "Senior AI Researcher",
           company: "Exscientia Ltd.",
           company_url: "https://www.exscientia.com/",
-          logo_path: "crest.png",
+          logo_path: "exscientia.png",
           duration: "Jan 2022 - Nov 2024",
           location: "Oxford, United Kingdom",
           description: [
@@ -396,7 +396,7 @@ const experience = {
           title: "AI Researcher",
           company: "Exscientia Ltd.",
           company_url: "https://www.exscientia.com/",
-          logo_path: "crest.png",
+          logo_path: "exscientia.png",
           duration: "Sep 2019 - Jan 2022",
           location: "Oxford, United Kingdom",
           description: [
@@ -408,6 +408,20 @@ const experience = {
             `○ Heavily involved in recruiting interviews, setting python software standards, CI/CD, code
              maintenance, and MLOps (continuous model training, registration, inference) using AWS Batch, Dy-
 namoDB, Step, Lambda, S3 etc. asthecompanygrewfromstartuptoIPO.`,
+          ],
+          color: "#0071C5",
+        },
+        {
+          title: "Software Engineering Intern",
+          company: "Metaswitch Ltd.",
+          company_url: "https://www.metaswitch.com/",
+          logo_path: "metaswitch.png",
+          duration: "Jun 2018 - Sep 2018",
+          location: "London, United Kingdom",
+          description: [
+            `○ Enhanced a complex codebase (1,000+ files) by implementing and deploying an MPLS Networking
+             protocol feature to improve traﬃc prioritization in production`,
+            `○ Developed in C and C++ with unit tests in Python and CI/CD via Jenkins.`,
           ],
           color: "#0071C5",
         },
