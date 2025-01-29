@@ -14,6 +14,7 @@ function Papers(props) {
     <div className="papers-main">
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-papers">
+        <PapersImg theme={props.theme} style={{width: "500px"}}/>
         <h1>Coming Soon!</h1>
         <Fade bottom duration={1000} distance="40px">
           <div className="papers-heading-div">
