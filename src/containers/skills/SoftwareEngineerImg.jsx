@@ -4,7 +4,7 @@ export default function SoftwareEngineerImg(props) {
   const theme = props.theme;
   return (
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+	 viewBox="0 0 500 500" enableBackground="new 0 0 500 500" xmlSpace="preserve">
 <g id="BACKGROUND">
 	<g>
 		<rect fill={theme.body} width="500" height="500"/>
