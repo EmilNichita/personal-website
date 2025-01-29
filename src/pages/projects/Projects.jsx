@@ -48,7 +48,7 @@ function Projects(props) {
         className={`general-btn ${
           theme.name === "light" ? "btn-light" : "btn-dark"
         }`}
-        href="https://github.com/harikanani"
+        href="https://github.com/EmilNichita"
       >
         More Projects (Github)
       </a>
