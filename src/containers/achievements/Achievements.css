@@ -1,27 +1,27 @@
-.certs-header {
+.achievements-header {
   font-size: 40px;
   line-height: 1.1;
   font-family: "Open Sans";
   text-align: center;
 }
 
-.certs-body-div {
+.achievements-body-div {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 @media (max-width: 1380px) {
-  .certs-header {
+  .achievements-header {
     font-size: 35px;
   }
 }
 
 @media (max-width: 768px) {
-  .certs-body-div {
+  .achievements-body-div {
     flex-direction: column;
   }
-  .certs-header {
+  .achievements-header {
     font-size: 30px;
   }
 }

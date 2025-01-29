@@ -341,13 +341,13 @@ const degrees = {
   ],
 };
 
-const certifications = {
-  certifications: [
+const achievements = {
+  achievements: [
     // {
     //   title: "M0001: MongoDB Basics",
     //   subtitle: "MongoDB University",
     //   logo_path: "mongo.png",
-    //   certificate_link:
+    //   achievement_link:
     //     "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
     //   alt_name: "MongoDB University",
     //   // color_code: "#2AAFED",
@@ -1224,7 +1224,7 @@ export {
   socialMediaLinks,
   skills,
   degrees,
-  certifications,
+  achievements,
   experience,
   projectsHeader,
   contactPageData,
