@@ -377,7 +377,7 @@ const experience = {
           location: "Oxford, United Kingdom",
           description: [
             `○ Led a cross-functional team focused on active learning, multi-parameter optimization,
-              and uncertainty quantification. \n
+              and uncertainty quantification.
               Attributes included individual contributions in code bases and research, 
               setting long term roadmaps, managing ongoing projects and communicating to users, front-end developers,
               and the board. (09/2023 - 10/2024)`,
@@ -397,22 +397,17 @@ const experience = {
           company: "Exscientia Ltd.",
           company_url: "https://www.exscientia.com/",
           logo_path: "crest.png",
-          duration: "Jan 2022 - Nov 2024",
+          duration: "Sep 2019 - Jan 2022",
           location: "Oxford, United Kingdom",
           description: [
-            `○ Led a cross-functional team focused on active learning, multi-parameter optimization,
-              and uncertainty quantification. \n
-              Attributes included individual contributions in code bases and research, 
-              setting long term roadmaps, managing ongoing projects and communicating to users, front-end developers,
-              and the board. (09/2023 - 10/2024)`,
-            `○ Led a cross-functional team of researchers and engineers focused on molecular property prediction,
-             both developing the required cloud infrastructure and producing state of the art results using classical
-             and large scale models for chemistry on 100% of internal assays. (03/2022 - 09/2023)`,
-            `○ Designed, implemented and open sourced a python framework for config driven model building,
-             greatly improving the reproducibility, automation and the internal speed of development - MolFlux.
-             This has been adopted in Exscientia for molecular predictive modelling.`,
-            `○ Worked closely with both MLOps engineers and model customers, to successfully migrate the MLOps
-             stack and user facing infrastructure to Seldon and Prefect.`,
+            `○ Built high accuracy machine learning models for molecular property prediction, using standard
+             ML and Cheminformatics libraries (RDKit, OpenEye, DeepChem, PyTorch) and implementing an 
+             eﬃcient molecular Gaussian Process library.`,
+            `○ Implemented a bayesian optimisation python package and supporting infrastructure for selecting
+             promising molecules to synthesise and evaluate in-vitro.`,
+            `○ Heavily involved in recruiting interviews, setting python software standards, CI/CD, code
+             maintenance, and MLOps (continuous model training, registration, inference) using AWS Batch, Dy-
+namoDB, Step, Lambda, S3 etc. asthecompanygrewfromstartuptoIPO.`,
           ],
           color: "#0071C5",
         },
