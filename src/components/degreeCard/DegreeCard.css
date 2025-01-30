@@ -45,11 +45,9 @@
 .body-content {
   max-width: inherit;
   border-radius: 0px 0px 7px 7px;
-  display: flex;
-  flex-direction: column; /* Stack the list and button vertically */
-  justify-content: space-between; /* Space between the list and the button */
-  align-items: flex-start; /* Align items to the left */
-  position: relative;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .content-list {
@@ -105,27 +103,6 @@
 
 .degree-card-body {
   border-radius: 7px;
-  width: 1000px;
   margin: 10px;
   transition: all 0.2s ease-in-out;
-}
-
-.degree-card-body:hover {
-  box-shadow: 0 5px 15px var(--accent-color);
-}
-
-.visit-button {
-  position: absolute;
-  bottom: 10px; /* Position the button 10px above the bottom edge */
-  right: 10px; /* Position the button 10px from the right edge */
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-.body-content-list {
-  display: flex;
-  flex-direction: column; /* Stack the text vertically */
-  width: 100%;
 }

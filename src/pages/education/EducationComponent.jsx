@@ -9,6 +9,7 @@ import { Fade } from "react-awesome-reveal";
 
 function Education(props) {
   const theme = props.theme;
+  console.log(props.setTheme);
   return (
     <div className="education-main">
       <Header theme={props.theme} setTheme={props.setTheme} />

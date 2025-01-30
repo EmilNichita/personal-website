@@ -24,15 +24,21 @@ function DegreeCard(props) {
           })}
           onMouseOut={() => setLogoHoverStyle({})}
         >
-          <img
-            style={{
-              maxWidth: "100%",
-              maxHeight: "100%",
-              transform: degree.logo_style?.transform || "none",
-            }}
-            src={`assets/images/${degree.logo_path}`}
-            alt={degree.alt_name}
-          />
+          <a 
+          href={degree.website_link}
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            <img
+              style={{
+                maxWidth: "100%",
+                maxHeight: "100%",
+                transform: degree.logo_style?.transform || "none",
+              }}
+              src={`assets/images/${degree.logo_path}`}
+              alt={degree.alt_name}
+            />
+          </a>
         </div>
       </Fade>
       <Fade right duration={2000} distance="40px">
@@ -80,27 +86,6 @@ function DegreeCard(props) {
               </p>
             ))}
             </div>
-            <a
-              href={degree.website_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", textAlign: "center" }}
-            >
-              <p
-                className="visit-button"
-                style={{
-                  backgroundColor: theme.accentColor,
-                  color: "#FFFFFF",
-                  ...websiteHoverStyle,
-                }}
-                onMouseOver={() => setWebsiteHoverStyle({
-                  boxShadow: `0 2px 10px ${theme.accentColor}`,
-                })}
-                onMouseOut={() => setWebsiteHoverStyle({})}
-              >
-                Visit Website
-              </p>
-            </a>
           </div>
         </div>
       </Fade>
