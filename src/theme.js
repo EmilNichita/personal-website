@@ -27,7 +27,7 @@ const darkTheme = {
   secondaryText: "#8D8D8D",
   accentColor: "#E3405F",
   accentBright: "#FC1056",
-  accentNeutral: "#3c2328",
+  accentNeutral: "#3C2328",
   projectCard: "#292A2D",
   skinColor: "#F7B799",
   skinColor2: "#FCB696",
