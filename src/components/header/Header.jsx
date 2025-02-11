@@ -7,22 +7,15 @@ import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 
 function Header(props) {
-  const theme = props.theme;
+
+  const { theme, setTheme } = props; // Destructure props
 
   const link = settings.isSplash ? "/splash" : "home";
 
-  const [currTheme, setCurrTheme] = useState(props.theme);
-
   function changeTheme() {
-    if (currTheme.name === "light") {
-      props.setTheme("dark");
-      localStorage.setItem("theme", "dark");
-      setCurrTheme("dark");
-    } else {
-      props.setTheme("light");
-      localStorage.setItem("theme", "light");
-      setCurrTheme("light");
-    }
+    const newTheme = theme.name === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
   }
 
   const icon =
