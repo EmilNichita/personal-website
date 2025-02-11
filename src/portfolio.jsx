@@ -167,9 +167,23 @@ const skills = {
         "I'm a proficient Python developer, including writing, building, deploying, and maintaining packages",
         "I have 5 years of AWS experience, including S3, Batch, ECR, EC2, ECS, Lambda, DynamoDB, CloudWatch",
         "I built and maintained continuous integration & deployment workflows for software and complex ML systems",
-        "I often make time to learn a new software stack through projects (like this website, learning HTML/CSS/JS/React/NPM!)",
+        "I often make time to learn a new software stack through projects (like this website, built using HTML/CSS/JS/React/NPM!)",
       ],
       softwareSkills: [
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#FCC624",
+          },
+        },
+        {
+          skillName: "MacOS",
+          fontAwesomeClassname: "simple-icons:macos",
+          style: {
+            color: "#000000",
+          },
+        },
         {
           skillName: "Python",
           fontAwesomeClassname: "devicon:python",
@@ -314,10 +328,11 @@ const degrees = {
       alt_name: "uni_of_oxford",
       duration: "2015 - 2019",
       descriptions: [
-        "○ Integrated Master of Mathematics and Computer Science, 4 years",
-        "○ Notable coursework: Machine Learning, Algorithms and Data Structures, Probability Theory, Graph Theory, Linear Algebra, Real and Complex Analysis, Advanced Databases, Functional Programming ",
-        "○ Notable practical projects: coming soon!",
-
+        [0, "○ Notable coursework: Machine Learning, Algorithms and Data Structures, Probability Theory, Graph Theory, Linear Algebra, Real and Complex Analysis, Advanced Databases, Functional Programming "],
+        [0, "○ Notable practical projects:"],
+        [2, "○ Fully featured text editor written in Scala"], 
+        [2, "○ Implementation of F-IVM in PostgreSQL based on M. Nikolic et al's paper "], 
+        [2, "○ CNNs trained for image classification (MNIST, CIFAR-10)"]
       ],
       website_link: "https://www.ox.ac.uk/",
     },
@@ -331,10 +346,10 @@ const degrees = {
       alt_name: "CNMB",
       duration: "2011 - 2015",
       descriptions: [
-        "○ Romanian Baccalaureate (97.5%)",
-        "○ 5 medals at the Romanian National Math Olympiad, including a gold one in 2013",
-        "○ Second prize in the International Space Settlement Contest organised by NASA in Orlando,US",
-        "○ Over 50 other prizes in national contests in Mathematics and Computer Science",
+        [0, "○ Romanian Baccalaureate (97.5%)"],
+        [0, "○ 5 medals at the Romanian National Math Olympiad, including a gold one in 2013"],
+        [0, "○ Second prize in the International Space Settlement Contest organised by NASA in Orlando,US"],
+        [0, "○ Over 50 other prizes in national contests in Mathematics and Computer Science"],
       ],
       website_link: "https://www.cnmbct.ro/",
     },
@@ -362,7 +377,8 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "Some statement about my current 5 year experience in machine learning coming soon!",
+    `Feel free to browse through my former employers, summing up 
+    to about 5 and a half years of software development, machine learning research and engineering!`,
   header_image_path: "experience.svg",
   sections: [
     {
@@ -407,7 +423,7 @@ const experience = {
              promising molecules to synthesise and evaluate in-vitro.`,
             `○ Heavily involved in recruiting interviews, setting python software standards, CI/CD, code
              maintenance, and MLOps (continuous model training, registration, inference) using AWS Batch, Dy-
-namoDB, Step, Lambda, S3 etc. asthecompanygrewfromstartuptoIPO.`,
+namoDB, Step, Lambda, S3 etc. as the company grew from startup to IPO.`,
           ],
           color: "#0071C5",
         },
@@ -432,13 +448,13 @@ namoDB, Step, Lambda, S3 etc. asthecompanygrewfromstartuptoIPO.`,
       experiences: [
         {
           title: "Coming soon!",
-          company: "Coming soon!",
-          company_url: "coming soon!",
-          logo_path: "coming soon.png",
-          duration: "coming soon!",
-          location: "coming soon!",
+          company: "Yes coming soon!",
+          company_url: "Not yet!",
+          logo_path: "coming_soon.png",
+          duration: "Start date",
+          location: "End date",
           description: [
-            "Coming soon!",
+            "The website is still in development, gimme a break!",
           ],
           color: "#FBBD18",
         },
@@ -485,6 +501,44 @@ const projects = {
         {
           name: "Github",
           url: "https://github.com/Exscientia/molflux",
+          iconifyClass: "ri:github-fill",
+        },
+        {
+          name: "Docs",
+          url: "https://exscientia.github.io/molflux/index.html",
+          iconifyClass: "fluent:window-dev-edit-20-filled",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "Personal Website",
+      url: "https://github.com/EmilNichita/personal-website",
+      description:
+        "The very website you're looking at, with an extendable and configurable source code!",
+      languages: [
+        
+        {
+          name: "HTML",
+          iconifyClass: "material-symbols:html",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "material-symbols:css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "devicon:react",
+        },
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/EmilNichita/personal-website",
           iconifyClass: "ri:github-fill",
         },
         {

@@ -41,7 +41,7 @@ function DegreeCard(props) {
           </a>
         </div>
       </Fade>
-      <Fade right duration={2000} distance="40px">
+      <Fade right duration={2000} distance="40px" style={{width: "100%"}}>
         <div
           className="degree-card-body"
           style={{
@@ -76,13 +76,13 @@ function DegreeCard(props) {
           </div>
           <div className="body-content">
             <div className="body-content-list">
-            {degree.descriptions.map((sentence, index) => (
+            {degree.descriptions.map(([indent, description], index) => (
               <p
                 key={index}
                 className="content-list"
-                style={{ color: theme.text }}
+                style={{ color: theme.text, paddingLeft: `${indent * 15 + 10}px` }}
               >
-                {sentence}
+                {description}
               </p>
             ))}
             </div>
