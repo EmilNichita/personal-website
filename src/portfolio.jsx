@@ -385,6 +385,19 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Senior AI Research Engineer",
+          company: "Isomorphic Labs @ Google",
+          company_url: "https://www.isomorphiclabs.com/",
+          logo_path: "isomorphic_labs_logo.jpeg",
+          duration: "May 2025 -",
+          location: "London, United Kingdom",
+          description: [
+            `○ Working on the end to end life cycle for Alphafold-like models, including infrastructure,
+             inference and productionization.`,
+          ],
+          color: "#0071C5",
+        },
+        {
           title: "Senior AI Researcher",
           company: "Exscientia Ltd.",
           company_url: "https://www.exscientia.com/",
